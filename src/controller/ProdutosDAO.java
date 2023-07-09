@@ -21,15 +21,12 @@ import java.util.ArrayList;
 public class ProdutosDAO {
     
     Connection conn;
-    PreparedStatement prep;
+    PreparedStatement stm;
     ResultSet resultset;
     ArrayList<ProdutosDTO> listagem = new ArrayList<>();
     
     public void cadastrarProduto (ProdutosDTO produto){
-        
-        
-        //conn = new conectaDAO().connectDB();
-        
+        conn = new ConectaDAO().connectDB();
         
     }
     
