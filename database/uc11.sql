@@ -39,6 +39,8 @@ alter table produtos modify column status text;
 --
 -- Extraindo dados da tabela `produtos`
 --
+use uc11;
+select * from produtos where status="vendido";
 
 INSERT INTO `produtos` (`id`, `nome`, `valor`, `status`) VALUES
 (2, 'PS4', 1500, 'Vendido'),

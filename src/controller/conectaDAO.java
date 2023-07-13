@@ -32,7 +32,7 @@ public class ConectaDAO {
             System.out.println("Erro Driver JDBC NÃO ENCONTRADO..."+e.getMessage());
             return null;
         }catch(SQLException e){
-            System.out.println("falha na conexao com o banco de dados"+e.getMessage());
+            System.out.println("falha na conexao com o banco de dados "+e.getMessage());
             return null;
         }
     }
