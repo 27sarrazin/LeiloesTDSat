@@ -1,9 +1,9 @@
 package view;
 
 import controller.ProdutosDAO;
-import model.ProdutosDTO;
 import java.util.ArrayList;
 import javax.swing.table.DefaultTableModel;
+import model.ProdutosDTO;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -139,17 +139,22 @@ public class listagemVIEW extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnVenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVenderActionPerformed
-        String id = id_produto_venda.getText();
 
         ProdutosDAO produtosdao = new ProdutosDAO();
-        CaixaVIEW vendas = new CaixaVIEW();
-        vendas.setVisible(true);
-        //produtosdao.venderProduto(Integer.parseInt(id));
+        ProdutosDTO produto = new ProdutosDTO();
+        int id = Integer.parseInt(id_produto_venda.getText());
+        produto = produtosdao.getProdutoPorId(id);
+        System.out.println(produto.getNome());
+        if (produto != null) {
+
+            produto.setStatus("Vendido");
+            produtosdao.venderProduto(produto);
+        }
         listarProdutos();
     }//GEN-LAST:event_btnVenderActionPerformed
 
     private void btnVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVendasActionPerformed
-        VendasVIEW vendas = new VendasVIEW(); 
+        VendasVIEW vendas = new VendasVIEW();
         vendas.setVisible(true);
     }//GEN-LAST:event_btnVendasActionPerformed
 
