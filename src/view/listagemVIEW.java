@@ -142,9 +142,10 @@ public class listagemVIEW extends javax.swing.JFrame {
 
         ProdutosDAO produtosdao = new ProdutosDAO();
         ProdutosDTO produto = new ProdutosDTO();
+        
         int id = Integer.parseInt(id_produto_venda.getText());
         produto = produtosdao.getProdutoPorId(id);
-        System.out.println(produto.getNome());
+        
         if (produto != null) {
 
             produto.setStatus("Vendido");
