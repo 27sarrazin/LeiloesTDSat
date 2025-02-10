@@ -6,6 +6,7 @@
   * baseado em :java
   * gerenciador de database: mysql
 =======
+
 *LeiloesTDSat
 Esse projeto consiste no desenvolvimento de um sistema informatizado para uma casa de leilões, permitindo a digitalização e automação de processos relacionados a lances, gerenciamento de itens,
 registro de usuários (compradores e vendedores) e controle das transações. O sistema pode incluir funcionalidades como:
