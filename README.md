@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Sistema de leilões
   Sistema desenvolvdio para uma casa de leilões
 
@@ -18,4 +18,4 @@ Segurança e autenticação: Controle de acesso e proteção contra fraudes.
 Integração com pagamentos: Possível conexão com meios de pagamento online para facilitar transações.
 
 *Tecnologias utilizadas: Java e MySQL
->>>>>>> f23e57e766bb01bfdfadc141ebe6980af628bfcb
+
