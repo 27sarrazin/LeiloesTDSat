@@ -5,7 +5,11 @@
 ## Tecnologias usadas:
   * baseado em :java
   * gerenciador de database: mysql
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 7d3124ac74974aee78c3f3db396fc17f559d5c6d
 
 *LeiloesTDSat
 Esse projeto consiste no desenvolvimento de um sistema informatizado para uma casa de leilões, permitindo a digitalização e automação de processos relacionados a lances, gerenciamento de itens,
@@ -20,5 +24,8 @@ Integração com pagamentos: Possível conexão com meios de pagamento online pa
 
 *Tecnologias utilizadas: Java e MySQL
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 7d3124ac74974aee78c3f3db396fc17f559d5c6d
