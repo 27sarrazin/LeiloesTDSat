@@ -2,6 +2,7 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/Rosilane/Documents/minhas%20atividadesTec.DS/modulo3/LeiloesTDSat/src/ProdutosDAO.java</file>
             <file>file:/C:/Users/Rosilane/Documents/minhas%20atividadesTec.DS/modulo3/LeiloesTDSat/src/ProdutosDTO.java</file>
@@ -9,5 +10,8 @@
             <file>file:/C:/Users/Rosilane/Documents/minhas%20atividadesTec.DS/modulo3/LeiloesTDSat/src/listagemVIEW.java</file>
             <file>file:/C:/Users/Rosilane/Documents/minhas%20atividadesTec.DS/modulo3/LeiloesTDSat/src/cadastroVIEW.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> 67965c7553003c87e92f78348ea350c849e135f0
     </open-files>
 </project-private>
