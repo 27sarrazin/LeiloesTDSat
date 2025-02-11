@@ -133,7 +133,6 @@ public class ProdutosDAO {
         }
 
         return listaProdutosVendidos;
-    }
-      
+    } 
 }
 
